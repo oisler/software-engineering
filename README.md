@@ -11,7 +11,7 @@ A repository to document everything i run into while coding
 ---
 
 ### 🧑‍💻 Programming Languages
-- [Kotlin – OOP: Inheritance](./kotlin/oop/inheritance.md)
+- [Kotlin](./kotlin/README.md)
 - 🚧 Java – TODO
 - 🚧 Python – TODO
 
