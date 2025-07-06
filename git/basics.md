@@ -2,12 +2,27 @@
 
 A minimal list of useful Git commands
 
-## Global Config
+## Config
+
+### Global
 
 ```bash
 git config --global user.email "e-mail"
 git config --global user.name "first name last name"
 ```
+
+### Local
+
+```bash
+git config user.email "e-mail"
+git config user.name "first name last name"
+```
+
+### Difference between local and global
+
+- local means only in corresponding repository
+- global means general config, for every repository with no local config
+
 
 ## Branches
 Create a new branch and switch to it.
