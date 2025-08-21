@@ -19,4 +19,4 @@ fun identifier() {
 }
 ```
 
-🔙 [Back to Kotlin Overview](../README.md)
+🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Functions](https://kotlinlang.org/docs/functions.html)
