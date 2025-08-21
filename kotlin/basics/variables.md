@@ -1,9 +1,19 @@
 # Variables
 
-Eine Variable ist ein Container zum Speichern von Informationen. Eine Variable
+Eine Variable ist ein Container zum Speichern von Informationen.
 
-    - speichert Informationen eines definierten Datentyps
-    - wird einmal deklariert und kann anschliessend beliebig oft ausgelesen werden
+    - Eine Variable speichert Informationen eines definierten Datentyps
+    - Eine Variable wird einmal deklariert und kann anschliessend beliebig oft ausgelesen werden
+
+---
+
+1. [Declaration](#declaration)
+2. [Initialization](#initialization)
+3. [val vs var](#val-vs-var)
+4. [Levels](#levels)
+5. [Type inference](#type-inference)
+
+---
 
 ## Declaration
 
