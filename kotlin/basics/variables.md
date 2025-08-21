@@ -1,6 +1,6 @@
 # Variables
 
-Eine Variable ist ein Container zum Speichern von Informationen. Sie
+Eine Variable ist ein Container zum Speichern von Informationen. Eine Variable
 
     - speichert Informationen eines definierten Datentyps
     - wird einmal deklariert und kann anschliessend beliebig oft ausgelesen werden
@@ -20,10 +20,9 @@ val identifier: Datentyp
 ## Initialization
 
 Um eine Information in einer Variable zu speichern, muss die Variable zuerst deklariert werden.<br>
-Nach der Deklaration, kann eine Variable initialisiert werden.<br>
-Das heisst, in einer Variable wird zum ersten Mal einen Wert gespeichert.
+Nach der Deklaration, kann eine Variable initialisiert werden: d.h. in einer Variable wird zum ersten Mal ein Wert gespeichert.
 
-- `=` ist der Zuweisungsoperator, mit dem in einer Variable eine Information gespeichert werden kann
+ `=` ist der Zuweisungsoperator, mit dem einer Variable eine Information zugewiesen werden kann
 
 ```kotlin
 val identifier: Datentyp = Information
@@ -36,9 +35,40 @@ val identifier: Datentyp = Information
 
 ## Levels
 
-Eine Variable kann an verschiedenen Stellen (Levels) deklariert werden:
+Eine Variable kann an verschiedenen Stellen deklariert werden:
 
-    - Top-Level      = eine Variable ausserhalb von einer function
-    - Local variable = eine Variable innerhalb einer function
+    - Top-Level variable = eine Variable, die direkt in einer .kt-Datei deklariert ist, ausserhalb von Klassen, Objekten oder Funktionen.
+    - Property           = eine Variable, die innerhalb einer Klasse oder eines Objekts deklariert ist.
+    - Local variable     = eine Variable, die innerhalb einer Funktion oder eines Codeblocks deklariert ist.
+
+```kotlin
+val topLevelVariable = "I am top-level"
+
+fun main() {
+    println(topLevelVariable)
+    PropertyContainerClass().printProperty()
+}
+
+class PropertyContainerClass {
+    
+    private val myProperty = "I am a property"
+
+    fun printProperty() {
+        println(myProperty)
+
+        val localVariable = "I am local"
+        println(localVariable)
+    }
+}
+```
+
+## Type inference
+
+Der Kotlin-Compiler kann bei einer Variablendeklaration mit direkter Zuweisung den Datentyp anhand des zugewiesenen Wertes erkennen.<br>
+Dadurch kann in diesem Fall eine explizite Typ-Deklaration weggelassen werden:
+
+```kotlin
+val identifier = "auto-detect String as type because of type inference"
+```
 
 🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Variables](https://kotlinlang.org/docs/basic-syntax.html#variables)
