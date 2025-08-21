@@ -1,6 +1,6 @@
 # Variables
 
-Eine Variable
+Eine Variable ist ein Container zum Speichern von Informationen. Sie
 
     - speichert Informationen eines definierten Datentyps
     - wird einmal deklariert und kann anschliessend beliebig oft ausgelesen werden
@@ -41,4 +41,4 @@ Eine Variable kann an verschiedenen Stellen (Levels) deklariert werden:
     - Top-Level      = eine Variable ausserhalb von einer function
     - Local variable = eine Variable innerhalb einer function
 
-🔙 [Back to Kotlin Overview](../README.md)
+🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Variables](https://kotlinlang.org/docs/basic-syntax.html#variables)
