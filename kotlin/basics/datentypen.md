@@ -5,6 +5,14 @@ Ein Datentyp definiert welche Art von Information in einer Variable oder einer D
     In Kotlin hat jede Variable und jede Datenstruktur einen expliziten Datentyp
     In Kotlin ist alles ein Objekt, im Sinne davon, dass auf jeder Variable Funktionen und Eigenschaften aufgerufen werden können
 
+---
+
+1. [Basic Types](#basic-types)
+2. [Other Types](#other-types)
+3. [Type checks and casts](#type-checks-and-casts)
+
+---
+
 ## Basic Types
 
 Kotlin kennt folgende basic types:
