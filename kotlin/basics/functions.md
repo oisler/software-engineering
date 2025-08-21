@@ -1,5 +1,9 @@
 # Functions
 
+
+
+## Allgemein
+
 Eine Funktion
 
     - beinhaltet die Anweisungen zur Lösung einer bestimmten Aufgabe
