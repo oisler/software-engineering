@@ -11,7 +11,7 @@ Um eine Variable zu erstellen, braucht es verschiedene Informationen:
 
 - `val` oder `var` ist das Keyword, um die Deklaration einer Variable einzuleiten
 - `identifier` ist der Name der Variable, mit dem diese verwendet werden kann
-- `Datentyp` definiert, welche Art von Information in der Variable aufbewahrt werden kann
+- `Datentyp` definiert welche Art von Information in der Variable aufbewahrt werden kann
 
 ```kotlin
 val identifier: Datentyp
@@ -20,7 +20,7 @@ val identifier: Datentyp
 ## Initialization
 
 Um eine Information in einer Variable zu speichern, muss die Variable zuerst deklariert werden.<br>
-Nach der Deklaration, kann eine Variable initialisiert werden: d.h. in einer Variable wird zum ersten Mal ein Wert gespeichert.
+Nach der Deklaration kann eine Variable initialisiert werden: d.h. in einer Variable wird zum ersten Mal ein Wert gespeichert.
 
  `=` ist der Zuweisungsoperator, mit dem einer Variable eine Information zugewiesen werden kann
 
