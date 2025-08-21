@@ -38,5 +38,3 @@ The difference between an integer and an unsigned integer is:
 
 
 Kotlin Doku: [Types](https://kotlinlang.org/docs/basic-types.html)
-
-🔙 [Back to Kotlin Overview](kotlin/README.md)
