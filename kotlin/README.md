@@ -8,4 +8,5 @@ Learning notes on the Kotlin programming language
 - [Basics: Datentypen](./basics/datentypen.md)
 - [Basics: Control Flow](./basics/control-flow.md)
 - [Basics: Collections](./basics/collections.md)
+- [Basics: Lambda Expressions](./basics/lambda-expressions.md)
 - [OOP: Inheritance](./oop/inheritance.md)
