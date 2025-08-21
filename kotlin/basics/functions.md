@@ -1,18 +1,19 @@
 # Functions
 
-1. [Allgemein](#allgemein)
-2. [Basic Declaration](#basic-declaration)
-3. [Named arguments und Default values](#named-arguments-und-default-values)
-4. [Without return und Early Return](#without-return-und-early-return)
-5. [Single-expression functions](#single-expression-functions)
-
-## Allgemein
-
 Eine Funktion
 
     - beinhaltet die Anweisungen zur Lösung einer bestimmten Aufgabe
     - wird einmal deklariert und kann anschliessend beliebig oft verwendet werden
     - kann ein Ergebnis liefern oder auch nicht
+
+---
+
+1. [Basic Declaration](#basic-declaration)
+2. [Named arguments und Default values](#named-arguments-und-default-values)
+3. [Without return und Early Return](#without-return-und-early-return)
+4. [Single-expression functions](#single-expression-functions)
+
+---
 
 ## Basic Declaration
 
