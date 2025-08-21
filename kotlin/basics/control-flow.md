@@ -1,8 +1,10 @@
 # Control flow
 
-1. Conditional expressions / statements
-2. Ranges
-3. Loops
+1. [Conditional Expressions / Statements](#conditional-expressions--statements)
+2. [Ranges](#ranges)
+3. [Loops](#loops)
+
+---
 
 ## Conditional Expressions / Statements
 
