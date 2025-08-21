@@ -1,10 +1,10 @@
 # Functions
 
-- [Allgemein](#allgemein)
-- [Basic Declaration](#basic-declaration)
-- [Named arguments und Default values](#named-arguments-und-default-values)
-- [Without return und Early Return](#without-return-und-early-return)
-- [Single-expression functions](#single-expression-functions)
+1. [Allgemein](#allgemein)
+2. [Basic Declaration](#basic-declaration)
+3. [Named arguments und Default values](#named-arguments-und-default-values)
+4. [Without return und Early Return](#without-return-und-early-return)
+5. [Single-expression functions](#single-expression-functions)
 
 ## Allgemein
 
