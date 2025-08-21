@@ -3,10 +3,14 @@
 Eine Sammlung enthält eine Anzahl von Objekten, die vom gleichen Typ (oder einem Subtyp davon) sind.<br>
 Eine Sammlung kann auch leer sein. d.h. sie enthält noch keine Elemente, wurde aber bereits deklariert.<br>
 
-In Kotlin gibt es drei Haupttypen von Sammlungen:
-1. Listen (Lists)
-2. Mengen (Sets)
-3. Maps
+---
+
+1. [Lists](#lists)
+2. [Sets](#sets)
+3. [Maps](#maps)
+4. [Zusätzliche Hinweise](#zusätzliche-hinweise)
+
+---
 
 ## Lists
 
