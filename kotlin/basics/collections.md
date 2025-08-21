@@ -1,39 +1,36 @@
 # Collections
 
+Eine Sammlung enthält eine Anzahl von Objekten, die vom gleichen Typ (oder einem Subtyp davon) sind.<br>
+Eine Sammlung kann auch leer sein. d.h. sie enthält noch keine Elemente, wurde aber bereits deklariert.<br>
 
+In Kotlin gibt es drei Haupttypen von Sammlungen:
+1. Listen (Lists)
+2. Mengen (Sets)
+3. Maps
 
-A collection contains a number of objects (possibly zero) of the same type (and its subtypes).
+## Lists
 
-There are three main collection types:
+- Eine Liste ist eine geordnete Sammlung von Elementen
+- Elemente werden in der Reihenfolge gespeichert, in der sie hinzugefügt werden
+- Doppelte Elemente sind erlaubt
+- Auf ein Element in einer Liste kann über den Indexzugriffsoperator ([]) zugegriffen werden. Beispiel: myList[0] gibt das erste Element der Liste zurück
 
+## Sets
+- Ein Set ist eine ungeordnete Sammlung von Elementen
+- Keine Duplikate erlaubt – nur eindeutige Elemente können enthalten sein
+- Auf ein Element kann nicht über einen bestimmten Index zugegriffen werden, da es keine Reihenfolge gibt
 
+## Maps
 
-1. Lists https://kotlinlang.org/docs/collections-overview.html#list
-   → ordered collection of items
-   → store items in the order that they are added
-   → allow for duplicate items
-   → access an element in a list by index with the indexed access Operator
-2. Sets https://kotlinlang.org/docs/collections-overview.html#set
-   → unique unordered collection of times
-   → no duplicates allowed, unique elements only
-   → can't access an item by a particular index (because there is no order)
-3. Maps https://kotlinlang.org/docs/collections-overview.html#map
+- Eine Map speichert Elemente als Schlüssel-Wert-Paare
+- Jeder Schlüssel in einer Map muss eindeutig sein, damit Kotlin weiss, welchen Wert abrufen werden soll
+- Es können doppelte Werte in einer Map vorkommen, solange sie unterschiedliche Schlüssel haben.
+- Auf ein Element in einer Map kann über den Schlüssel mit dem Indexzugriffsoperator ([]) zugegriffen werden. Beispiel: myMap["key"] gibt den Wert zurück, der dem Schlüssel "key" zugeordnet ist.
 
-   → store items as key-value pairs
-
-   → every key in a map must be unique so that Kotlin can understand which value you want to get
-
-   → it is possible to have duplicate values in a map (as long as they have different keys)
-
-   → access an element in a map by key with the indexed Access operator
-
-
-
-→ each collection type can be mutable or read only
-
-→ to prevent unwanted modifications, the soution is to create a read-only view of a mutable list by assigning it to a List
-
-
-
+## Zusätzliche Hinweise
+- Jeder Collection-Typ kann entweder veränderbar (mutable) oder nur-lesbar (read-only) sein. 
+- Read-only bedeutet, dass keine Elemente hinzugefügt oder entfernt werden können
+- Mutable bedeutet, dass du der Sammlung Elemente hinzugefügt oder entfernt werden können
+- Um ungewollte Änderungen zu verhindern, kann eine read-only View veränderbaren Sammlung erstellt werden
 
 🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Collections](https://kotlinlang.org/docs/collections-overview.html) 
