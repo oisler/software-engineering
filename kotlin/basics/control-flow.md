@@ -17,12 +17,12 @@
 
 - **when** prüft mehrere Ergebnisse von verschiedenen Bedingungen, die auf ein Subjekt angewendet werden<br>
 - **when** verwendet `->`, um jede Bedingung von der Aktion zu trennen, die ausgeführt wird, wenn die entsprechende Bedingung **true** ist<br>
-- **when** prüft alle Bedingungen sequentiell, bis eine Bedingung erfüllt ist.d.h. die erste Bedingung, die **true** ergibt, "gewinnt" (es gibt kein "Fall-Through")<br>
+- **when** prüft alle Bedingungen sequentiell bis eine Bedingung erfüllt ist.d.h. die erste Bedingung, die **true** ergibt, "gewinnt" (es gibt kein "Fall-Through")<br>
 - **when** muss Bedingungen für alle möglichen Werte abdecken (es ist exhaustiv).d.h. dass normalerweise ein **else**-branch am Ende enthalten ist<br>
 - **when** kann sowohl als Anweisung (Statement) als auch als Ausdruck (Expression) verwendet werden<br>
 - **when** kann auch ohne ein Subjekt verwendet werden<br>
 
-### Enpfehlung zur Anwendung
+### Empfehlung zur Anwendung
     
     für 1 Bedingung (simple boolean true false) use if
     für  n Bedingungen use when
