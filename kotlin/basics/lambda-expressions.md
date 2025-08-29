@@ -11,7 +11,6 @@ Lambda-Expressions sind `anonyme` Funktionen
 1. [Syntax](#syntax)
 2. [Usage](#usage)
 3. [it](#it)
-4. [Implizit Explizit Return](#implizit-explizit-return)
 5. [Higher order functions](#higher-order-functions)
 
 ---
@@ -19,22 +18,20 @@ Lambda-Expressions sind `anonyme` Funktionen
 ## Syntax
 
 Da Kotlin statisch typisiert ist, muss auch bei Lambdas ein Typ definiert sein, der beschreibt:
-  - welche Parameter die Funktion akzeptiert und zwar kommasepariert in ()
-  - welchen Rückgabewert die Funktion liefert und zwar nach dem `->`
+  - welche Parameter die Funktion akzeptiert (direkt vor dem `->`)
+  - welchen Rückgabewert die Funktion liefert (nach dem `->`)
 
 ```kotlin
-{ parameter: Typ -> Statement }
+{ parameter: Typ -> Funktionskörper }
 ```
 
 ```kotlin
 fun main() {
+    // Explizite Typangabe
     val toUpperCaseExplizit: (String) -> String = { s -> s.uppercase() }
     println(toUpperCaseExplizit("i am learning kotlin"))
-}
-```
 
-```kotlin
-fun main() {
+    // Implizite Typableitung
     val toUpperCase = { s: String -> s.uppercase() }
     println(toUpperCase("i am learning kotlin"))
 }
@@ -42,33 +39,29 @@ fun main() {
 
 ## it
 
-Häufig haben Lambda Expressions genau einen Parameter.<br>
-Wenn der Compiler alle notwendigen Infos aus dem Kontext ableiten kann, darf die Typ deklaration weggelassen werden:
+Wenn eine Lambda-Expression genau einen Parameter hat und der Typ aus dem Kontext abgeleitet werden kann, wird der Parameter automatisch mit dem Schlüsselwort it referenziert.
+Die Typdeklaration kann in diesem Fall weggelassen werden.
 
 ```kotlin
-fun main() {
-    val numbers = (0..10).toList()
-    val even = numbers.filter { it % 2 == 0 } // implizit mit it
-    println(even)
-}
-```
+val numbers = (0..10).toList()
 
-```kotlin
-fun main() {
-    val numbers = (0..10).toList()
-    val odd = numbers.filter { number: Int -> number % 2 != 0 } // explizit mit identifier und Typ
-    println(odd)
-}
+// Implizit mit "it"
+val even = numbers.filter { it % 2 == 0 }
+println(even)
+
+// Explizit mit Parameter und Typ
+val odd = numbers.filter { number: Int -> number % 2 != 0 }
+println(odd)
 ```
 
 ## Usage
 
-Lambda expressions können
+Lambda-Expressions können:
+
 1. als Inhalt einer Variable gespeichert werden
 2. als Argument an eine andere Funktion übergeben werden
-3. als Resultat einer aufgerufenen Funktion retourniert werden
+3. als Rückgabewert einer Funktion verwendet werden
 4. direkt aufgerufen werden
-
  
 ## Higher order functions
 
