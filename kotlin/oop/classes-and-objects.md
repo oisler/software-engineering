@@ -24,7 +24,7 @@ Die Functions
 
 ---
 1. [Klassendeklaration](#klassendeklaration)
-2. [Properties](#proterties)
+2. [Properties](#properties)
 3. [Klassenarten](#klassenarten)
 ---
 
