@@ -15,6 +15,12 @@ Für diese Automatische Generierung von Member functions müssen folgende Regeln
 
 Deshalb eignen sie sich besonders für DTOs oder grundsätzlich Datenmodell-Klassen
 
+---
+1. [Veränderbarkeit](#veraenderbarkeit)
+2. [Kopieren](#kopieren)
+3. [Destrukturierung](#destrukturierung)
+---
+
 ## Veränderbarkeit
 
 Eine Instanz von Person ist immutable, weil alle Properties mit `val` deklariert sind.<br>
