@@ -99,7 +99,7 @@ Je nachdem wo und wie ein Property definiert wurde, hat es unterschiedliche Ausw
 
 In Kotlin gibt es verschiedene Arten von Klassen und jede Art hat individuelle Eigenschaften.
 
-- [data classes](../data_classes.md)
-- [object classes](../object_classes.md)
+- [data classes](data-classes.md)
+- [object classes](object-classes.md)
 
 🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Klassen](https://kotlinlang.org/docs/classes.html) 
