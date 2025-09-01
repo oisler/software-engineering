@@ -9,4 +9,7 @@ Learning notes on the Kotlin programming language
 - [Basics: Control Flow](./basics/control-flow.md)
 - [Basics: Collections](./basics/collections.md)
 - [Basics: Lambda Expressions](./basics/lambda-expressions.md)
+- [OOP: Klassen und Objekte](./oop/classes-and-objects.md)
+- [OOP: Data classes](./oop/data-classes.md)
+- [OOP: Object classes](./oop/object-classes.md)
 - [OOP: Inheritance](./oop/inheritance.md)
