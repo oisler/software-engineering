@@ -101,5 +101,6 @@ In Kotlin gibt es verschiedene Arten von Klassen und jede Art hat individuelle E
 
 - [data classes](data-classes.md)
 - [object classes](object-classes.md)
+- [value classes](value-classes.md)
 
 🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Klassen](https://kotlinlang.org/docs/classes.html) 
