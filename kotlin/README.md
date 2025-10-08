@@ -12,4 +12,5 @@ Learning notes on the Kotlin programming language
 - [OOP: Klassen und Objekte](./oop/classes-and-objects.md)
 - [OOP: Data classes](./oop/data-classes.md)
 - [OOP: Object classes](./oop/object-classes.md)
+- [OOP: Value classes](./oop/value-classes.md)
 - [OOP: Inheritance](./oop/inheritance.md)
