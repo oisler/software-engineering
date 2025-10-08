@@ -50,8 +50,4 @@ Der Kotlin-Compiler entscheidet zur Compile-Time, ob eine Value Class inline dar
 Diese Entscheidung basiert auf der Nutzung der Value Class (z. B. ob Referenzen benötigt werden).<br>
 Das Verhalten ist fix und ändert sich nicht zur Runtime.<br>
 
-## Spezialfall
-
-Wenn das primary property einer value class nullable ist, kann es vom Comiler nicht als inline behandelt werden.
-
 🔙 [Back to Kotlin Overview](../README.md) oder direkt zur Kotlin Doku: [Value classes](https://kotlinlang.org/docs/inline-classes.html) 
